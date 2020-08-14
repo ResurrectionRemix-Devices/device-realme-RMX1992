@@ -194,6 +194,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.x2
 
+#Ramdisk
+PRODUCT_PACKAGES += \
+    init.artemis.rc
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \

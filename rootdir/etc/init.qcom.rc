@@ -1,4 +1,5 @@
 import /system/etc/init/init.devicesetting.rc
+import /vendor/etc/init/init.artemis.rc
 
 on init
     # Boot time FS tune
