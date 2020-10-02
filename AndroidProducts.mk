@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_X2.mk
+    $(LOCAL_DIR)/rr_RMX1992.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_X2-userdebug \
-    rr_X2-user \
-    rr_X2-eng
+    rr_RMX1992-userdebug \
+    rr_RMX1992-user \
+    rr_RMX1992-eng

@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := realme
-DEVICE_PATH := device/realme/X2
+DEVICE_PATH := device/realme/RMX1992
 
 #Broken Rules
 BUILD_BROKEN_DUP_RULES := true
@@ -172,4 +172,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
--include vendor/realme/X2/BoardConfigVendor.mk
+-include vendor/realme/RMX1992/BoardConfigVendor.mk

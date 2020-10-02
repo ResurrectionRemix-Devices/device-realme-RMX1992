@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, device/realme/X2/device.mk)
+$(call inherit-product, device/realme/RMX1992/device.mk)
 
 # Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
@@ -14,8 +14,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rr_X2
-PRODUCT_DEVICE := X2
+PRODUCT_NAME := rr_RMX1992
+PRODUCT_DEVICE := RMX1992
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
 PRODUCT_MANUFACTURER := realme
