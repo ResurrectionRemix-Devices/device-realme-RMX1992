@@ -12,12 +12,15 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 #FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
 PRODUCT_MANUFACTURER := realme
+
+RR_BUILDTYPE := Official
 
 BUILD_FINGERPRINT := "realme/RMX1992/RMX1992L1:10/QKQ1.191201.002/1592194586:user/release-keys"
 
