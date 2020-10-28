@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 # Doze
 PRODUCT_PACKAGES += \
     devicesettings \
-    RealmeProximityService \
+    RealmeProximityHelper \
     RealmeDoze
 
 # Fingerprint
